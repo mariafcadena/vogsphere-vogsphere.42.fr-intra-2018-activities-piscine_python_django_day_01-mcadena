@@ -1,4 +1,4 @@
-path="/Users/mcadena/Day01/ex01/numbers.txt"
+path="/Users/mcadena/Documents/Day01/ex01/numbers.txt"
 def readfile(p):
     file_object  = open(p, 'r')
     return file_object.read()
