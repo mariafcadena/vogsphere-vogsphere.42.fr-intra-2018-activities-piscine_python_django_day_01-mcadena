@@ -27,6 +27,8 @@ def Letter_City(search_letters):
 
 letter=State_Letter(input_state)
 City=Letter_City(letter)
+if City==None:
+    City="Unknown State"
 print(City)
 
 
